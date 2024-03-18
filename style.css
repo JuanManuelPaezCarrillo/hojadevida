@@ -1,6 +1,6 @@
 *{
  margin: 5%;
- 
+ font-family: sans-serif;
  color: rgb(80, 79, 79);
 }
 body{
@@ -199,9 +199,11 @@ h2{
     position: absolute;  
 }
 @media screen and (max-width: 480px){
+    .contenedor{
+        padding:1%;
+    }
     .menu{
         font-size:small;
-
     }
     .presentacion h1, p{
         font-size: medium;
@@ -217,7 +219,7 @@ h2{
         font-size: small;
     }
     .skills ul{
-        margin-left: 1%;
+        margin-left: -9%;
     }
     .skills h2{
         font-size: medium;
@@ -229,9 +231,10 @@ h2{
         height: 80px;
     }
     .CSS{
-        width: 80px;
+        width: 70px;
         height: 80px;
-       
+        display: flex;
+        margin-left: 17%;
     }
     .JavaScript{
         width: 60px;
@@ -280,17 +283,15 @@ h2{
         padding: 25px;
         font-size: small;
     }
-    .sanjose{
+    .sanjose, .comfenalco{
         width: 100px;
         height: 70px;
-    }
-    .comfenalco{
-        width: 100px;
-        height: 70px;
-    }
+        margin-left: 20%;
+    }    
     .alura{
         width: 100px;
         height: 60px;
+        margin-left: 20%;
     }
     .contacto h2{
         font-size: medium;
@@ -303,27 +304,14 @@ h2{
     .correo{
         width: 40px;
         height: 40px;
-        top: 353%;
+        top: 275%;
     }
     .whatsapp{
         width: 40px;
         height: 30px;  
-        top: 353%;  
-        margin-left: 130px;    
+        top: 275%;  
+        margin-left: 170px;    
     }
 }
     
-
-
-
-
-
-
-
-
-
-
-    
-
-
 
