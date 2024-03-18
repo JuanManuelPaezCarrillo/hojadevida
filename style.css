@@ -296,6 +296,9 @@ h2{
     .contacto h2{
         font-size: medium;
     }
+    .contacto ul{
+        margin-top: 70%;
+    }
     .contacto li{
         display: flex;
         font-size: small;
@@ -304,12 +307,12 @@ h2{
     .correo{
         width: 40px;
         height: 40px;
-        top: 275%;
+        top: 285%;
     }
     .whatsapp{
         width: 40px;
         height: 30px;  
-        top: 275%;  
+        top: 285%;  
         margin-left: 170px;    
     }
 }
