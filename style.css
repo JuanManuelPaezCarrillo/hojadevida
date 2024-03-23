@@ -204,13 +204,20 @@ h2{
     }
     .menu{
         font-size:small;
+        display: inline-flex;
+        margin-left: 0%;      
+ 
+    }
+    .menu li{
+        margin-right: 7px;
+        padding: 0;
+        text-align: center;
     }
     .presentacion h1, p{
         font-size: medium;
     }
     .biografia{
-       height: 325px;
-      
+       height: 325px;      
     }
     .biografia h2{
         font-size: medium;
@@ -218,8 +225,20 @@ h2{
     .informacionBiografia{
         font-size: small;
     }
+    .redesSociales{
+        font-size: small;
+    }
+    .redesSociales li{
+        padding: 0;
+        margin-right: 7px;
+    }
     .skills ul{
         margin-left: -9%;
+    }
+    .skills li{
+        font-size: small;
+        padding: 25px;
+        text-align: center;
     }
     .skills h2{
         font-size: medium;
@@ -243,11 +262,10 @@ h2{
     .Mysql{
         width: 70px;
         height: 70px;
-    }
-    .skills li{
-        font-size: small;
-        padding: 25px;
-    }
+    } 
+    .hobbies{
+        line-height: 30px;
+    }  
     .piano{
         width: 80px;
         height: 80px;
